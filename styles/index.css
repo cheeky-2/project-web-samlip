@@ -1,46 +1,54 @@
-#wrap {}
-#wrap header {
+#wrap {
+    background-color:orange;
     width:1920px;
-    background-color:red;
     height:92px;
+    line-height:92px;
+}
+#wrap header {
+    background-color:red;
+    /* margin-right:60px */
+    display:inline-block;
+    padding:0 60px 0;
+    width:1920px;
+    text-align:center;
 }
 #wrap header h1 {
     display:inline-block;
     background-color:aqua;
-    margin-left:60px;
-    padding-right:526px;
-    margin-top:13px;
+    /* margin-left:60px; */
+    /* padding-right:526px;
+    padding-top:13px; */
+    margin:0 526px 0 0;
+    text-align:left;
 }
-#wrap header h1 a {
-    width:56px;
-    height:65px;
-}
+#wrap header h1 a {}
 #wrap header h1 a img {}
 #wrap header nav {
     background-color:lime;
     display:inline-block;
-    text-align:center;
-    width:637px;
-    height:92px;
+    margin:0 378px 0 0;
 }
-#wrap header nav .gnb {}
+#wrap header nav .gnb {
+    word-spacing:30px;
+    display:inline;
+}
 #wrap header nav .gnb li {
     display:inline-block;
     background-color:blue;
     font-size:1.125rem;
-    
+    letter-spacing:60px;
 }
 #wrap header nav .gnb li a {}
 #wrap header .right_menu {
-    text-align:right;
     background-color:pink;
-    display:inline-block;
-    padding-right:60px;
-    padding-left:378px;
+    display:inline;
+    width:203px;
+    margin-left:auto;
 }
 #wrap header .right_menu li {
     font-size:0.75rem;
     display:inline-block;
+    padding-right:30px;
 }
 #wrap header .right_menu li a {}
 #wrap header .right_menu li img {}
