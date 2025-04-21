@@ -2,12 +2,14 @@
 #wrap header {
     width:1920px;
     background-color:red;
+    height:92px;
 }
 #wrap header h1 {
     display:inline-block;
     background-color:aqua;
     margin-left:60px;
     padding-right:526px;
+    margin-top:13px;
 }
 #wrap header h1 a {
     width:56px;
@@ -19,12 +21,14 @@
     display:inline-block;
     text-align:center;
     width:637px;
+    height:92px;
 }
 #wrap header nav .gnb {}
 #wrap header nav .gnb li {
     display:inline-block;
     background-color:blue;
     font-size:1.125rem;
+    
 }
 #wrap header nav .gnb li a {}
 #wrap header .right_menu {
