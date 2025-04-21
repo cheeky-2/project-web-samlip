@@ -1,0 +1,42 @@
+#wrap {}
+#wrap header {
+    width:1920px;
+    background-color:red;
+}
+#wrap header h1 {
+    display:inline-block;
+    background-color:aqua;
+    margin-left:60px;
+    padding-right:526px;
+}
+#wrap header h1 a {
+    width:56px;
+    height:65px;
+}
+#wrap header h1 a img {}
+#wrap header nav {
+    background-color:lime;
+    display:inline-block;
+    text-align:center;
+    width:637px;
+}
+#wrap header nav .gnb {}
+#wrap header nav .gnb li {
+    display:inline-block;
+    background-color:blue;
+    font-size:1.125rem;
+}
+#wrap header nav .gnb li a {}
+#wrap header .right_menu {
+    text-align:right;
+    background-color:pink;
+    display:inline-block;
+    padding-right:60px;
+    padding-left:378px;
+}
+#wrap header .right_menu li {
+    font-size:0.75rem;
+    display:inline-block;
+}
+#wrap header .right_menu li a {}
+#wrap header .right_menu li img {}
