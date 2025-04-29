@@ -1,5 +1,5 @@
-#wrap {text-align:center;}
-#wrap main {}
+#wrap {}
+#wrap main {text-align:center;}
 #wrap main .path {
     width:1920px; padding:12px 60px;
     text-align:right;
@@ -27,85 +27,112 @@
     display:flex; flex-flow:row nowrap; justify-content:center;
     padding:90px 0;
 }
-#wrap main #bg .youtube:hover {
-    border:1px solid #0693e3;
-    background-color:#fff;
-    box-shadow:0 0 30px rgba(0,0,0,0.3);
-}
-#wrap main #bg .youtube {
+#wrap main #bg div {
     width:320px; height:320px;
     background-color:#F5F5F5;
     padding:69px 1%;
     border:1px solid #eee;
 }
-#wrap main #bg .youtube a {
+#wrap main #bg div:hover {
+    background-color:#fff;
+    border:1px solid #0693e3;
+    box-shadow:0 0 30px rgba(0,0,0,0.3);
+}
+#wrap main #bg div a {
     display:flex; flex-flow:column nowrap;
     align-items:center;
+    justify-content:end;
+}
+#wrap main #bg div a img {background-color:aqua;}
+#wrap main #bg div a em {
+    margin:20px 0;
+    font-size:1.75rem;
+    font-weight:700;
+    background-color:lime;
+}
+#wrap main #bg div a span {
+    font-size:0.875rem;
+    font-weight:500;
+    color:#888888;
+    background-color:orange;
+}
+#wrap main #bg .youtube:hover {
+    /* border:1px solid #0693e3;
+    background-color:#fff;
+    box-shadow:0 0 30px rgba(0,0,0,0.3); */
+}
+#wrap main #bg .youtube {
+    /* width:320px; height:320px;
+    background-color:#F5F5F5;
+    padding:69px 1%;
+    border:1px solid #eee; */
+}
+#wrap main #bg .youtube a {
+    /* display:flex; flex-flow:column nowrap;
+    align-items:center; */
 }
 #wrap main #bg .youtube a img {
 }
 #wrap main #bg .youtube a em {
-    margin:20px 0;
+    /* margin:20px 0;
     font-size:1.75rem;
-    font-weight:700;
+    font-weight:700; */
 }
 #wrap main #bg .youtube a span {
-    font-size:0.875rem;
+    /* font-size:0.875rem;
     font-weight:500;
-    color:#888888;
+    color:#888888; */
 }
 #wrap main #bg .insta:hover {
-    background-color:#fff;
+    /* background-color:#fff;
     border:1px solid #0693e3;
-    box-shadow:0 0 30px rgba(0,0,0,0.3);
+    box-shadow:0 0 30px rgba(0,0,0,0.3); */
 }
 #wrap main #bg .insta {
-    width:320px; height:320px;
+    /* width:320px; height:320px;
     background-color:#F5F5F5;
-    padding:69px 1%;
+    padding:69px 1%; */
     margin:0 30px;
-    border:1px solid #eee;
+    /* border:1px solid #eee; */
 }
 #wrap main #bg .insta a {
-    display:flex; flex-flow:column nowrap;
-    align-items:center;
+    /* display:flex; flex-flow:column nowrap;
+    align-items:center; */
 }
-#wrap main #bg .insta a img {
-    width:100px;
-}
+#wrap main #bg .insta a img {}
 #wrap main #bg .insta a em {
-    margin:20px 0;
+    /* margin:20px 0;
     font-size:1.75rem;
-    font-weight:700;
+    font-weight:700; */
 }
 #wrap main #bg .insta a span {
-    font-size:0.875rem;
+    /* font-size:0.875rem;
     font-weight:500;
-    color:#888888;
+    color:#888888; */
 }
 #wrap main #bg .pacebook:hover {
-    background-color:#fff;
+    /* background-color:#fff;
     border:1px solid #0693e3;
-    box-shadow:0 0 30px rgba(0,0,0,0.3);
+    box-shadow:0 0 30px rgba(0,0,0,0.3); */
 }
 #wrap main #bg .pacebook {
-    background-color:#F5F5F5;
+    /* background-color:#F5F5F5;
     width:320px; height:320px;
     padding:69px 1%;
-    border:1px solid #eee;
+    border:1px solid #eee; */
 }
 #wrap main #bg .pacebook a {
-    display:flex; flex-flow:column nowrap;
-    align-items:center;
+    /* display:flex; flex-flow:column nowrap;
+    align-items:center; */
 }
 #wrap main #bg .pacebook a img {}
 #wrap main #bg .pacebook a em {
-    margin:20px 0;
+    /* margin:20px 0;
     font-size:1.75rem;
-    font-weight:700;
+    font-weight:700; */
 }
 #wrap main #bg .pacebook a span {
-    font-size:0.875rem;
+    /* font-size:0.875rem;
     font-weight:500;
-    color:#888888;
+    color:#888888; */
 }
