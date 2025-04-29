@@ -1,94 +1,110 @@
 #wrap {text-align:center;}
-#wrap .path {
+#wrap main {}
+#wrap main .path {
     width:1920px; padding:12px 60px;
     text-align:right;
     font-size:0.75rem;
     background-color:#EEEEEE;
 }
-#wrap .path a {}
-#wrap .path img {
+#wrap main .path a {color:#555;}
+#wrap main .path img {
     margin:0 10px;
 }
-#wrap .path em {}
-#wrap h1 {
+#wrap main .path em {color:#333;}
+#wrap main h1 {
     font-size:3.5rem;
     font-weight:700;
     margin:60px 0 20px;
 }
-#wrap p {
+#wrap main p {
     font-size:1.25rem;
     font-weight:500;
     margin-bottom:60px;
     color:#666;
 }
-#wrap #bg {
+#wrap main #bg {
     background-color:#FCFCFC;
     display:flex; flex-flow:row nowrap; justify-content:center;
     padding:90px 0;
 }
-#wrap #bg .youtube {
-    width:350px; height:350px;
+#wrap main #bg .youtube:hover {
+    border:1px solid #0693e3;
+    background-color:#fff;
+    box-shadow:0 0 30px rgba(0,0,0,0.3);
+}
+#wrap main #bg .youtube {
+    width:320px; height:320px;
     background-color:#F5F5F5;
-    padding:84px 2%;
+    padding:69px 1%;
     border:1px solid #eee;
 }
-#wrap #bg .youtube a {
+#wrap main #bg .youtube a {
     display:flex; flex-flow:column nowrap;
     align-items:center;
 }
-#wrap #bg .youtube a img {
+#wrap main #bg .youtube a img {
 }
-#wrap #bg .youtube a em {
+#wrap main #bg .youtube a em {
     margin:20px 0;
     font-size:1.75rem;
     font-weight:700;
 }
-#wrap #bg .youtube a span {
+#wrap main #bg .youtube a span {
     font-size:0.875rem;
     font-weight:500;
     color:#888888;
 }
-#wrap #bg .insta {
-    width:350px; height:350px;
+#wrap main #bg .insta:hover {
+    background-color:#fff;
+    border:1px solid #0693e3;
+    box-shadow:0 0 30px rgba(0,0,0,0.3);
+}
+#wrap main #bg .insta {
+    width:320px; height:320px;
     background-color:#F5F5F5;
-    padding:84px 2%;
+    padding:69px 1%;
     margin:0 30px;
     border:1px solid #eee;
 }
-#wrap #bg .insta a {
+#wrap main #bg .insta a {
     display:flex; flex-flow:column nowrap;
     align-items:center;
 }
-#wrap #bg .insta a img {
+#wrap main #bg .insta a img {
     width:100px;
 }
-#wrap #bg .insta a em {
+#wrap main #bg .insta a em {
     margin:20px 0;
     font-size:1.75rem;
     font-weight:700;
 }
-#wrap #bg .insta a span {
+#wrap main #bg .insta a span {
     font-size:0.875rem;
     font-weight:500;
     color:#888888;
 }
-#wrap #bg .pacebook {
+#wrap main #bg .pacebook:hover {
+    background-color:#fff;
+    border:1px solid #0693e3;
+    box-shadow:0 0 30px rgba(0,0,0,0.3);
+}
+#wrap main #bg .pacebook {
     background-color:#F5F5F5;
-    width:350px; height:350px;
-    padding:84px 2%;
+    width:320px; height:320px;
+    padding:69px 1%;
     border:1px solid #eee;
 }
-#wrap #bg .pacebook a {
+#wrap main #bg .pacebook a {
     display:flex; flex-flow:column nowrap;
     align-items:center;
 }
-#wrap #bg .pacebook a img {}
-#wrap #bg .pacebook a em {
+#wrap main #bg .pacebook a img {}
+#wrap main #bg .pacebook a em {
     margin:20px 0;
     font-size:1.75rem;
     font-weight:700;
 }
-#wrap #bg .pacebook a span {
+#wrap main #bg .pacebook a span {
     font-size:0.875rem;
     font-weight:500;
     color:#888888;
