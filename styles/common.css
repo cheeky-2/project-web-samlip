@@ -43,7 +43,26 @@
 }
 #wrap header nav .gnb > li:nth-of-type(2):hover .lnb_bg {
     display:block;
+    display:flex; flex-flow:row nowrap;
 }
+#wrap header nav .gnb > li .lnb_bg .main_brand {
+    background-color:red;
+    display:inline-block;
+    text-align:center;
+}
+#wrap header nav .gnb > li .lnb_bg .main_brand > h2 {}
+#wrap header nav .gnb > li .lnb_bg .main_brand > p {}
+#wrap header nav .gnb > li .lnb_bg .main_brand > p:last-child {}
+#wrap header nav .gnb > li:nth-of-type(2) .lnb_bg .lnb_depth1 {
+    background-color:gray; margin:0 0;
+    text-align:left;
+}
+#wrap header nav .gnb > li:nth-of-type(2) .lnb_bg .lnb_depth1 > li {}
+#wrap header nav .gnb > li:nth-of-type(2) .lnb_bg .lnb_depth1 > li h2 {}
+#wrap header nav .gnb > li:nth-of-type(2) .lnb_bg .lnb_depth1 > li .lnb_depth2 {width:320px;}
+#wrap header nav .gnb > li:nth-of-type(2) .lnb_bg .lnb_depth1 > li .lnb_depth2 li {}
+#wrap header nav .gnb > li:nth-of-type(2) .lnb_bg .lnb_depth1 > li .lnb_depth2 li a {}
+#wrap header nav .gnb > li:nth-of-type(2) .lnb_bg .lnb_depth1 > li .lnb_depth2 li a img {}
 #wrap header nav .gnb > li .lnb_bg {
     background-color:rgba(255,255,255,0.8);
     position:absolute; left:0; top:92px;
