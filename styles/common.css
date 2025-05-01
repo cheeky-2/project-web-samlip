@@ -68,7 +68,7 @@
 }
 #wrap header nav .gnb > li .lnb_bg .lnb_depth1 > li .lnb_depth2 li {margin-bottom:16px;}
 #wrap header nav .gnb > li .lnb_bg .lnb_depth1 > li .lnb_depth2 li:last-child {margin-bottom:0;}
-#wrap header nav .gnb > li .lnb_bg .lnb_depth1 > li .lnb_depth2 li a {color:#abb8c3;}
+#wrap header nav .gnb > li .lnb_bg .lnb_depth1 > li .lnb_depth2 li a {color:#555;}
 #wrap header nav .gnb > li .lnb_bg .lnb_depth1 > li .lnb_depth2 li a:hover {color:#138FBF;}
 /* ===================================gnb 2. brands 서브메뉴개별디자인 */
 #wrap header nav .gnb > li #lnb_brands {}

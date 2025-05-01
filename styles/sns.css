@@ -25,7 +25,6 @@
     padding:90px 0;
 }
 #wrap main .bg .container {
-    background-color:aqua;
     margin:0 auto;
     width:1280px;
     display:flex; flex-flow:row nowrap; justify-content:space-between;
