@@ -12,13 +12,18 @@ body, html {scroll-behavior:smooth;}
     display:flex;/* 자식, 자손이 인라인이어도 크기 인식가능 */
     justify-content:flex-end;
 }
-.right_nav a:hover em {display:block;}/* 마우스hover 글자보이기 */
+.right_nav a:hover em {
+    display:block;
+}/* 마우스hover 글자보이기 */
 .right_nav a em {display:none;}/* 글자숨기기 */
+.right_nav a:hover span {
+    filter:invert(100%);
+}
 .right_nav a span {
     background-color:#fff;
     width:12px; height:12px; border-radius:50%;
     box-shadow:0 0 10px rgba(0,0,0,0.2);
-    margin-left:10px;
+    margin-left:10px; margin-bottom:1px;
 }
 /* 메인 시작 */
 /* 공통 */
