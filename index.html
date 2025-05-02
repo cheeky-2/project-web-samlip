@@ -12,6 +12,15 @@
     <link href="./styles/index.css" rel="stylesheet">
 </head>
 <body>
+    <!-- 우측 pagenation 고정영역 -->
+    <div class="right_nav">
+        <a href="#ad_wrap"><em>Main</em><span></span></a>
+        <a href="#news_all"><em>News & Notice</em><span></span></a>
+        <a href="#studio_wrap"><em>Now @ Samlip Studio</em><span></span></a>
+        <a href="#brands_all"><em>Our Brands</em><span></span></a>
+        <a href="#footer"><em>Compnay Info</em><span></span></a>
+    </div>
+    <!-- 삼립 메인페이지 시작 영역 -->
     <div id="wrap">
         <header>
             <h1><a href="./index.html"><img src="./images/logo.png" alt="SPC삼립"></a></h1>
@@ -143,7 +152,7 @@
         </header>
         <main>
             <!-- 1. 광고배너 -->
-            <section class="ad_wrap">
+            <section class="ad_wrap" id="ad_wrap">
                 <!-- 1-1. 광고 개별 그룹 -->
                 <div class="ad_container">
                     <div class="ad ad1">
@@ -184,7 +193,7 @@
                 </div>
             </section>
             <!-- 2. 뉴스&공지사항 -->
-            <section class="news_all">
+            <section class="news_all" id="news_all">
                 <h2>News & Notice</h2>
                 <p>SPC Samlip news updates, from a company that is always happy.</p>
                 <section class="news_wrap">
@@ -257,9 +266,277 @@
                 </a>
             </section>
             <!-- 3. 삼립 스튜디오 -->
+            <section class="studio_wrap" id="studio_wrap">
+                <h2>Now @ Samlip Studio</h2>
+                <p>Samlip studio, SPC Samlip's YouTube channel Where you can eat, watch, and digest.</p>
+                <!-- 유튜브 채널 미리보기 바로 보이는 영역 -->
+                <div class="studio_list">
+                    <a href="#"><img src="./images/youtube.png" alt="올겨울 삼립호빵은 신뉴빈만 기억해"></a>
+                    <a href="#"><img src="./images/youtube_02.png" alt="동수수퍼 몰아보기2"></a>
+                    <a href="#"><img src="./images/youtube_03.png" alt="동수수퍼 몰아보기1"></a>
+                    <a href="#"><img src="./images/youtube_04.png" alt="오븐없이 1분만에 오레오 케이크 만드는 법"></a>
+                    <a href="#"><img src="./images/youtube.png" alt="올겨울 삼립호빵은 신뉴빈만 기억해"></a>
+                    <a href="#"><img src="./images/youtube_02.png" alt="동수수퍼 몰아보기2"></a>
+                    <a href="#"><img src="./images/youtube_03.png" alt="동수수퍼 몰아보기1"></a>
+                    <a href="#"><img src="./images/youtube_04.png" alt="오븐없이 1분만에 오레오 케이크 만드는 법"></a>
+                </div>
+                <!-- 위 미리보기 클릭 시 열리는 영역 -->
+                <div class="studio_open">
+                    <div class="open_container">
+                        <button type="button" class="close" title="close (ESC)">X</button>
+                        <div class="youtube"><!-- iframe은 다른 사이트 동영상 가져올때 쓰는거 -->
+                            <iframe width="900" height="506" src="https://www.youtube.com/embed/ak643LmueKE" title="[삼립호빵] 올겨울 삼립호빵은 신.뉴.빈.만 기억해!🐤" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <iframe width="900" height="506" src="https://www.youtube.com/embed/B1Pm8DjZa24" title="분명히 남자였는데 여자친구가 됐다 [동수수퍼] 몰아보기 part.2 | 웹드라마" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <iframe width="900" height="506" src="https://www.youtube.com/embed/xpRBBnrjhS0" title="비주얼 맛집 감성충만 동네슈퍼 [동수수퍼] 몰아보기 part.1 | 웹드라마" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <iframe width="900" height="506" src="https://www.youtube.com/embed/y58cZqwd0Bo" title="정통 크림빵 x 오레오 조합 미쳤누.. 편의점에서 직접 만들어보세요" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <iframe width="900" height="506" src="https://www.youtube.com/embed/ak643LmueKE" title="[삼립호빵] 올겨울 삼립호빵은 신.뉴.빈.만 기억해!🐤" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <iframe width="900" height="506" src="https://www.youtube.com/embed/B1Pm8DjZa24" title="분명히 남자였는데 여자친구가 됐다 [동수수퍼] 몰아보기 part.2 | 웹드라마" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <iframe width="900" height="506" src="https://www.youtube.com/embed/xpRBBnrjhS0" title="비주얼 맛집 감성충만 동네슈퍼 [동수수퍼] 몰아보기 part.1 | 웹드라마" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <iframe width="900" height="506" src="https://www.youtube.com/embed/y58cZqwd0Bo" title="정통 크림빵 x 오레오 조합 미쳤누.. 편의점에서 직접 만들어보세요" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <!-- (아래) 고정링크 -->
+                <a href="#" class="youtube_link">
+                    <img src="./images/youtube_icon.png" alt="">
+                    <em>View on YouTube</em>
+                </a>
+            </section>
             <!-- 4. 삼립 브랜드 -->
+            <section class="brands_all" id="brands_all">
+                <h2>Our Brands</h2>
+                <p>Introduction of SPC samlip brands that are loved all throughout different business fields.</p>
+                <div class="brands_wrap"><!-- 1. 슬라이드가 실제 보이는 영역 -->
+                    <div class="brands_container"><!-- 2. 슬라이드 전체묶는 가로영역(실제 움직이는 부분) -->
+                        <ul class="brands_slide1"><!-- 3. 첫번쨰 화면에 보이는 12개의 로고가 들어간 부모 -->
+                            <li><!-- 첫번째 로고 영역(반복*12) -->
+                                <p class="logo"><img src="./images/brand_01.png" alt="균형잡힌 맛과 영양, 나만의 한끼 샐러드 피그인더가든"></p>
+                                <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                                <div class="logo_details">
+                                    <h3>피그인더가든</h3>
+                                    <p>균형잡힌 맛과 영양, 나만의 한끼 샐러드</p>
+                                    <a href="#" class="view">View Details</a>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="logo"><img src="./images/brand_02.png" alt="프로젝트H"></p>
+                                <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                                <div class="logo_details">
+                                    <h3>프로젝트H</h3>
+                                    <p></p>
+                                    <a href="#" class="view">View Details</a>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="logo"><img src="./images/brand_01.png" alt="균형잡힌 맛과 영양, 나만의 한끼 샐러드 피그인더가든"></p>
+                                <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                                <div class="logo_details">
+                                    <h3>피그인더가든</h3>
+                                    <p>균형잡힌 맛과 영양, 나만의 한끼 샐러드</p>
+                                    <a href="#" class="view">View Details</a>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="logo"><img src="./images/brand_02.png" alt="프로젝트H"></p>
+                                <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                                <div class="logo_details">
+                                    <h3>프로젝트H</h3>
+                                    <p></p>
+                                    <a href="#" class="view">View Details</a>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="logo"><img src="./images/brand_01.png" alt="균형잡힌 맛과 영양, 나만의 한끼 샐러드 피그인더가든"></p>
+                                <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                                <div class="logo_details">
+                                    <h3>피그인더가든</h3>
+                                    <p>균형잡힌 맛과 영양, 나만의 한끼 샐러드</p>
+                                    <a href="#" class="view">View Details</a>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="logo"><img src="./images/brand_02.png" alt="프로젝트H"></p>
+                                <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                                <div class="logo_details">
+                                    <h3>프로젝트H</h3>
+                                    <p></p>
+                                    <a href="#" class="view">View Details</a>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="logo"><img src="./images/brand_01.png" alt="균형잡힌 맛과 영양, 나만의 한끼 샐러드 피그인더가든"></p>
+                                <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                                <div class="logo_details">
+                                    <h3>피그인더가든</h3>
+                                    <p>균형잡힌 맛과 영양, 나만의 한끼 샐러드</p>
+                                    <a href="#" class="view">View Details</a>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="logo"><img src="./images/brand_02.png" alt="프로젝트H"></p>
+                                <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                                <div class="logo_details">
+                                    <h3>프로젝트H</h3>
+                                    <p></p>
+                                    <a href="#" class="view">View Details</a>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="logo"><img src="./images/brand_01.png" alt="균형잡힌 맛과 영양, 나만의 한끼 샐러드 피그인더가든"></p>
+                                <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                                <div class="logo_details">
+                                    <h3>피그인더가든</h3>
+                                    <p>균형잡힌 맛과 영양, 나만의 한끼 샐러드</p>
+                                    <a href="#" class="view">View Details</a>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="logo"><img src="./images/brand_02.png" alt="프로젝트H"></p>
+                                <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                                <div class="logo_details">
+                                    <h3>프로젝트H</h3>
+                                    <p></p>
+                                    <a href="#" class="view">View Details</a>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="logo"><img src="./images/brand_01.png" alt="균형잡힌 맛과 영양, 나만의 한끼 샐러드 피그인더가든"></p>
+                                <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                                <div class="logo_details">
+                                    <h3>피그인더가든</h3>
+                                    <p>균형잡힌 맛과 영양, 나만의 한끼 샐러드</p>
+                                    <a href="#" class="view">View Details</a>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="logo"><img src="./images/brand_02.png" alt="프로젝트H"></p>
+                                <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                                <div class="logo_details">
+                                    <h3>프로젝트H</h3>
+                                    <p></p>
+                                    <a href="#" class="view">View Details</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="brands_slide2"><!-- 3. 첫번쨰 화면에 보이는 12개의 로고가 들어간 부모 -->
+                            <li><!-- 첫번째 로고 영역(반복*12) -->
+                                <p class="logo"><img src="./images/brand_01.png" alt="균형잡힌 맛과 영양, 나만의 한끼 샐러드 피그인더가든"></p>
+                                <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                                <div class="logo_details">
+                                    <h3>피그인더가든</h3>
+                                    <p>균형잡힌 맛과 영양, 나만의 한끼 샐러드</p>
+                                    <a href="#" class="view">View Details</a>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="logo"><img src="./images/brand_02.png" alt="프로젝트H"></p>
+                                <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                                <div class="logo_details">
+                                    <h3>프로젝트H</h3>
+                                    <p></p>
+                                    <a href="#" class="view">View Details</a>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="logo"><img src="./images/brand_01.png" alt="균형잡힌 맛과 영양, 나만의 한끼 샐러드 피그인더가든"></p>
+                                <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                                <div class="logo_details">
+                                    <h3>피그인더가든</h3>
+                                    <p>균형잡힌 맛과 영양, 나만의 한끼 샐러드</p>
+                                    <a href="#" class="view">View Details</a>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="logo"><img src="./images/brand_02.png" alt="프로젝트H"></p>
+                                <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                                <div class="logo_details">
+                                    <h3>프로젝트H</h3>
+                                    <p></p>
+                                    <a href="#" class="view">View Details</a>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="logo"><img src="./images/brand_01.png" alt="균형잡힌 맛과 영양, 나만의 한끼 샐러드 피그인더가든"></p>
+                                <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                                <div class="logo_details">
+                                    <h3>피그인더가든</h3>
+                                    <p>균형잡힌 맛과 영양, 나만의 한끼 샐러드</p>
+                                    <a href="#" class="view">View Details</a>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="logo"><img src="./images/brand_02.png" alt="프로젝트H"></p>
+                                <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                                <div class="logo_details">
+                                    <h3>프로젝트H</h3>
+                                    <p></p>
+                                    <a href="#" class="view">View Details</a>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="logo"><img src="./images/brand_01.png" alt="균형잡힌 맛과 영양, 나만의 한끼 샐러드 피그인더가든"></p>
+                                <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                                <div class="logo_details">
+                                    <h3>피그인더가든</h3>
+                                    <p>균형잡힌 맛과 영양, 나만의 한끼 샐러드</p>
+                                    <a href="#" class="view">View Details</a>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="logo"><img src="./images/brand_02.png" alt="프로젝트H"></p>
+                                <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                                <div class="logo_details">
+                                    <h3>프로젝트H</h3>
+                                    <p></p>
+                                    <a href="#" class="view">View Details</a>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="logo"><img src="./images/brand_01.png" alt="균형잡힌 맛과 영양, 나만의 한끼 샐러드 피그인더가든"></p>
+                                <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                                <div class="logo_details">
+                                    <h3>피그인더가든</h3>
+                                    <p>균형잡힌 맛과 영양, 나만의 한끼 샐러드</p>
+                                    <a href="#" class="view">View Details</a>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="logo"><img src="./images/brand_02.png" alt="프로젝트H"></p>
+                                <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                                <div class="logo_details">
+                                    <h3>프로젝트H</h3>
+                                    <p></p>
+                                    <a href="#" class="view">View Details</a>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="logo"><img src="./images/brand_01.png" alt="균형잡힌 맛과 영양, 나만의 한끼 샐러드 피그인더가든"></p>
+                                <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                                <div class="logo_details">
+                                    <h3>피그인더가든</h3>
+                                    <p>균형잡힌 맛과 영양, 나만의 한끼 샐러드</p>
+                                    <a href="#" class="view">View Details</a>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="logo"><img src="./images/brand_02.png" alt="프로젝트H"></p>
+                                <!-- (아래)li 마우스 hover 시 보이는 영역 -->
+                                <div class="logo_details">
+                                    <h3>프로젝트H</h3>
+                                    <p></p>
+                                    <a href="#" class="view">View Details</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="brands_btn">
+                        <button type="button" class="brands_prev"><img src="./images/ad_arrow.png" alt="이전 브랜드페이지 보기"></button>
+                        <button type="button" class="brands_next"><img src="./images/ad_arrow.png" alt="다음 브랜드페이지 보기"></button>
+                    </div>
+                </div>
+            </section>
         </main>
-        <footer>
+        <footer id="footer">
             <div class="top">
                 <div class="left">
                     <a href="#">개인정보처리방침</a>
