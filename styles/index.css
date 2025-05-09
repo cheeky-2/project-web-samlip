@@ -92,7 +92,6 @@ body, html {scroll-behavior:smooth;}
     margin-bottom:70px;
 }
 #wrap main .news_all .news_wrap .news_container .news {
-    background-color:yellow;
     width:311px; height:287px;
     margin-right:42px;
     border:1px solid #ccc;
